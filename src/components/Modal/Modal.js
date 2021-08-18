@@ -3,7 +3,7 @@ const Modal = ({ image }) => {
     <div
       className="modal fade"
       id="modal-galeria"
-      tabindex="-1"
+      tabIndex="-1"
       aria-labelledby="modal-galeria"
       area-hidden="true"
     >

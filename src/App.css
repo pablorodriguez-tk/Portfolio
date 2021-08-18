@@ -80,6 +80,43 @@ header .menu .c3:hover {
   max-width: 1000px;
 }
 
+/* Acerca de */
+.acerca-de .foto .nombre {
+  color: #545454;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.acerca-de .info .titulo {
+  color: #005385;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.acerca-de .info .resumen {
+  letter-spacing: 1px;
+}
+
+.acerca-de .info .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #003855;
+  margin-bottom: 10px;
+}
+
+.acerca-de .info .progress {
+  background: #005385;
+  border-radius: 0;
+  height: 25px;
+}
+
+.acerca-de .info .progress .progress-bar {
+  background: #3da5e2;
+  line-height: 25px;
+  padding-left: 25px;
+}
+
 /* Media Queries */
 
 /* Dispositivo sm */
