@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { images } from '../../utils/ImageArray';
 import About from '../About/About';
+import ContactForm from '../ContactForm/ContactForm';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Modal from '../Modal/Modal';
 
@@ -22,6 +23,7 @@ const Main = () => {
           </div>
         </div>
         <About />
+        <ContactForm />
       </div>
     </main>
   );

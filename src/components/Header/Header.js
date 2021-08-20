@@ -9,7 +9,7 @@ const Header = () => {
     <header className="container my-5">
       <div className="nav row justify-content-between rounded-top g-0">
         {/* Logotipo */}
-        <div className="logo col-auto d-flex align-items-center ps-4">
+        <div className="logo col-12 col-lg-auto d-flex align-items-center justify-content-center ps-4">
           <h2 className="fw-bold text-uppercase mb-0">Pablo Rodriguez</h2>
           <div className="icono ">
             <i className="bi bi-dot" />
@@ -18,7 +18,7 @@ const Header = () => {
         </div>
 
         {/* Enlaces */}
-        <nav className="menu col-auto d-flex align-items-stretch">
+        <nav className="menu col-12 col-lg-auto d-flex align-items-stretch">
           <Link
             to="#"
             className="c1 px-4 d-flex text-white text-decoration-none align-items-center text-center"
